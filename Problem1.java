@@ -10,24 +10,24 @@ package projectEulerJava;
 public class Problem1 {
 
     private static int getSumOfMultiples(int maxCount, int count, int sum) {
-        do {        
+        do {
             if (count % 3 == 0 || count % 5 == 0 ) {
                 sum += count;
             }
             count++;
         } while (count < maxCount);
-        
+
         return sum;
     }
-        
+
     public static void main(String[] args) {
         int maxCount = 1000;
         int count = 3;
         int sum = 0;
-        
+
         int totalSum;
         totalSum = getSumOfMultiples(maxCount, count, sum);
-        
+
         System.out.println("Total Sum f all the multiples of 3 or 5 below 1000 is " + totalSum);
-    }    
+    }
 }
