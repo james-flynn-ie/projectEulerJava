@@ -1,4 +1,4 @@
-package projectEulerJava;
+package problem1;
 
 /**
  *
@@ -28,6 +28,6 @@ public class Problem1 {
         int totalSum;
         totalSum = getSumOfMultiples(maxCount, count, sum);
 
-        System.out.println("Total Sum f all the multiples of 3 or 5 below 1000 is " + totalSum);
+        System.out.println("Total Sum of all the multiples of 3 or 5 below 1000 is " + totalSum);
     }
 }
