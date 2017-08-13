@@ -21,7 +21,7 @@ public class Problem1 {
     }
 
     public static void main(String[] args) {
-        int maxCount = 1000;
+        int maxCount = 1_000;
         int count = 3;
         int sum = 0;
 
