@@ -43,7 +43,7 @@ public class Problem2 {
         //Set sumEvenTerms to 2, as we already declared the first even term as termTwo.
         long sumEvenTerms = 2L;
 
-        sumEvenTerms = findNextTerm (maxTerm, termOne, termTwo, sumEvenTerms);
+        sumEvenTerms = findNextTerm(maxTerm, termOne, termTwo, sumEvenTerms);
 
         System.out.println("Total sum of even Fibonacci terms where the Fibonacci numbers are less than 4,000,000 is " + sumEvenTerms);
     }
