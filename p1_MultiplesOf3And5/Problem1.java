@@ -1,4 +1,4 @@
-package problem1;
+package p1_MultiplesOf3And5;
 
 /**
  *
