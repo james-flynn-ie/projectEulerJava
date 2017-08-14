@@ -10,12 +10,12 @@ package p1_MultiplesOf3And5;
 public class Problem1 {
 
     private static int getSumOfMultiples(int maxCount, int count, int sum) {
-        do {
+        while (count < maxCount) {
             if (count % 3 == 0 || count % 5 == 0 ) {
                 sum += count;
             }
             count++;
-        } while (count < maxCount);
+        };
 
         return sum;
     }

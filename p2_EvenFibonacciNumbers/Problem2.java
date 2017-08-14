@@ -13,14 +13,13 @@ public class Problem2 {
     private static long findSumEvenTerms (long nextTerm, long sumEvenTerms) {
         if (nextTerm % 2 == 0) {
             sumEvenTerms += nextTerm;
-            System.out.println("Even term found, new sum of even terms is " + sumEvenTerms);
         }
 
         return sumEvenTerms;
     }
 
     private static long findNextTerm (int maxTerm, long termOne, long termTwo, long sumEvenTerms) {
-        do {
+        while (termTwo <= maxTerm) {
             long nextTerm = termOne + termTwo;
             System.out.println(nextTerm);
 
@@ -30,7 +29,7 @@ public class Problem2 {
             // Set the terms for the next Fibonacci
             termOne = termTwo;
             termTwo = nextTerm;
-        } while (termTwo <= maxTerm);
+        } ;
 
         return sumEvenTerms;
     }
@@ -45,6 +44,6 @@ public class Problem2 {
 
         sumEvenTerms = findNextTerm(maxTerm, termOne, termTwo, sumEvenTerms);
 
-        System.out.println("Total sum of even Fibonacci terms where the Fibonacci numbers are less than 4,000,000 is " + sumEvenTerms);
+        System.out.println("Total sum of even Fibonacci terms where the Fibonacci numbers are less than 4000000 is " + sumEvenTerms);
     }
 }
