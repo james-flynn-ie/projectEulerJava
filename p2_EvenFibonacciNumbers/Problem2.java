@@ -29,7 +29,7 @@ public class Problem2 {
             // Set the terms for the next Fibonacci
             termOne = termTwo;
             termTwo = nextTerm;
-        } ;
+        }
 
         return sumEvenTerms;
     }
