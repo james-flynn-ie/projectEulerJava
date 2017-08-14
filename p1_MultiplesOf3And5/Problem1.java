@@ -15,8 +15,7 @@ public class Problem1 {
                 sum += count;
             }
             count++;
-        };
-
+        }
         return sum;
     }
 
