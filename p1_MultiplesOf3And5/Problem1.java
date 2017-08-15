@@ -24,8 +24,7 @@ public class Problem1 {
         int count = 3;
         int sum = 0;
 
-        int totalSum;
-        totalSum = getSumOfMultiples(maxCount, count, sum);
+        int totalSum = getSumOfMultiples(maxCount, count, sum);
 
         System.out.println("Total Sum of all the multiples of 3 or 5 below 1000 is " + totalSum);
     }
