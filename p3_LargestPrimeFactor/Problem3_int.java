@@ -17,11 +17,11 @@ public class Problem3_int {
      * When the algorithm terminates, the numbers remaining not marked in the list are all the primes below n.
      */
     public static void main(String[] args) {
-        long numberUnderTest = 13195L;
-        CopyOnWriteArrayList<Long> allFactors = new CopyOnWriteArrayList<>();
+        int numberUnderTest = 13195;
+        CopyOnWriteArrayList<Integer> allFactors = new CopyOnWriteArrayList<>();
 
         // Get list of all factors.
-        for (long i = 2L; i <= numberUnderTest; i++) {
+        for (int i = 2; i <= numberUnderTest; i++) {
             if (numberUnderTest % i == 0) {
                 allFactors.add(i);
             }
