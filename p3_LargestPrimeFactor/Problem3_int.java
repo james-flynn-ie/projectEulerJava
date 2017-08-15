@@ -6,7 +6,7 @@ import java.util.concurrent.CopyOnWriteArrayList;
  * The prime factors of 13195 are 5, 7, 13 and 29.
  * What is the largest prime factor of the number 600851475143 ?
  */
-public class Problem3 {
+public class Problem3_int {
 
     /**
      * Sieve of Erastothenes (retrieved from https://en.wikipedia.org/wiki/Sieve_of_Eratosthenes)
@@ -17,7 +17,7 @@ public class Problem3 {
      * When the algorithm terminates, the numbers remaining not marked in the list are all the primes below n.
      */
     public static void main(String[] args) {
-        long numberUnderTest = 600851475143L;
+        long numberUnderTest = 13195L;
         CopyOnWriteArrayList<Long> allFactors = new CopyOnWriteArrayList<>();
 
         // Get list of all factors.
