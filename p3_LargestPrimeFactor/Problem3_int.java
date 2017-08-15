@@ -29,7 +29,7 @@ public class Problem3_int {
         System.out.println(allFactors);
 
         // Check if any factors can be divided by another factor, i.e.: are not prime.
-        for (int i = 0; i < allFactors.size() - 1; i++) {
+        for (int i = 0; i < allFactors.size(); i++) {
 
             for (int j = 0; j <= i; j++) {
                 if (! allFactors.get(i).equals(allFactors.get(j)) && (allFactors.get(i) % allFactors.get(j) == 0)) {
