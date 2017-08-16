@@ -10,7 +10,7 @@ public class Problem3_int {
 
     /**
      * This approach works for ints such as 13195, but is not efficient for long integrals.
-     * A more efficient approach is defined in TODO add GitHub link to Problem3_long.java
+     * A more efficient approach is defined in https://github.com/james-flynn-ie/projectEulerJava/blob/master/p3_LargestPrimeFactor/Problem3_long.java
      */
 
     public static void main(String[] args) {
