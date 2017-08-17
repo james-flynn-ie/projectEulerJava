@@ -6,14 +6,24 @@ package p3_LargestPrimeFactor;
  */
 public class Problem3_long {
     /**
-     * Sieve of Erastothenes (retrieved from https://en.wikipedia.org/wiki/Sieve_of_Eratosthenes)
-     * Create a list of consecutive integers from 2 through n: (2, 3, 4, ..., n).
-     * Initially, let p equal 2, the smallest prime number.
-     * Enumerate the multiples of p by counting to n from 2p in increments of p, and mark them in the list (these will be 2p, 3p, 4p, ...; the p itself should not be marked).
-     * Find the first number greater than p in the list that is not marked. If there was no such number, stop. Otherwise, let p now equal this new number (which is the next prime), and repeat from step 3.
-     * When the algorithm terminates, the numbers remaining not marked in the list are all the primes below n.
+     * http://www.onlinemathlearning.com/prime-factors.html
+     *
+     * Prime factorization by repetitive division:
+     *  Divide the number by the lowest prime number.
+     *  Repeat division until numberUnderTest = 1 (which cannot be prime).
      */
-    public static void main (String[] args) {
-        long numberUnderTest = 600_851_475_143L;
+    public static void main(String[] args) {
+        long numberUnderTest=600_851_475_143L;
+
+        for (long i = 2L; i <= numberUnderTest; i++) {
+            // A prime factor must be >= 2 & mod = 0
+            if (numberUnderTest % i==0) {
+                System.out.println(i);
+
+                // Divide by factor, then reset i to 2 and loop through again.
+                numberUnderTest = numberUnderTest / i;
+                i = 2L;
+            }
+        }
     }
 }

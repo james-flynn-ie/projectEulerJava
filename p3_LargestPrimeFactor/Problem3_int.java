@@ -35,6 +35,7 @@ public class Problem3_int {
 
     public static void main(String[] args) {
         int numberUnderTest = 13_195;
+
         // CopyOnWriteArrayList<> allows us to modify an array list while iterating through it.
         CopyOnWriteArrayList<Integer> allFactors = new CopyOnWriteArrayList<>();
 
