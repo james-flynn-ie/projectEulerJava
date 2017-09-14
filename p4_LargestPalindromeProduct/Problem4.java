@@ -9,28 +9,30 @@ public class Problem4 {
      */
     public static void main(String[] args) {
         int largestPalindrome = 0;
+        int largestI = 0;
+        int largestJ = 0;
 
         for (int i = 100; i <= 999; i++) {
             for (int j = 100; j <= 999; j++) {
                 int result = i * j;
-                System.out.println("(" + i + ") *  (" + j + ") = " + result);
+                System.out.println("(" + i + ") * (" + j + ") = " + result);
 
                 //Convert result to String before reversing.
                 String strResult = Integer.toString(result);
                 String reverseResult = new StringBuffer(strResult).reverse().toString();
 
-                //System.out.println("Result: " + result);
-                //System.out.println("Reversed: " + reverseResult);
-
                 if ((reverseResult).equals(Integer.toString(result))) {
                     System.out.println("Palindrome found! " + result);
 
                     if (result > largestPalindrome) {
+                        largestI = i;
+                        largestJ = j;
                         largestPalindrome = result;
                     }
                 }
             }
         }
-        System.out.println("The largest palindrome from 2 three-digit numbers is " + largestPalindrome);
+
+        System.out.println("The largest palindrome from 2 three-digit numbers is: (" + largestI + ") * (" + largestJ + ") = " + largestPalindrome);
     }
 }
