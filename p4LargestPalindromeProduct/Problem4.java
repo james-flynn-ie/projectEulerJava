@@ -1,4 +1,4 @@
-package p4_LargestPalindromeProduct;
+package p4LargestPalindromeProduct;
 
 public class Problem4 {
     /**

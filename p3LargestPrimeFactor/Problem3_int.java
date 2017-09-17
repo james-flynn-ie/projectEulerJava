@@ -1,4 +1,4 @@
-package p3_LargestPrimeFactor;
+package p3LargestPrimeFactor;
 
 import java.util.concurrent.CopyOnWriteArrayList;
 

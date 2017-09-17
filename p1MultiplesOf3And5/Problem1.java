@@ -1,4 +1,4 @@
-package p1_MultiplesOf3And5;
+package p1MultiplesOf3And5;
 
 /**
  *
