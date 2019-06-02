@@ -47,7 +47,7 @@ You may also notice that we need to add the package name in front of the class n
 * **Run the Java application by executing the following command in the problem folder:**
 
 ```java
-java -cp.; p1MultiplesOf3And5.Problem1
+java -cp .; p1MultiplesOf3And5.Problem1
 ```
 
 This will cause the JVM to interpret the bytecode within the *.class file into commands which are understood by your OS and version of Java.
