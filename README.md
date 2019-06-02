@@ -38,10 +38,16 @@ javac Problem1.java
 This will compile the application for the Java Virtual Machine, and create the file Problem1.class
 
 ## Run the Java Application
-* **Run the Java application by executing the following command:**
+We need to set the `CLASSPATH` when running from the Command Line. Some IDEs take care of this by compiling the *.class file in a pre-determined `CLASSPATH`.
+
+We can also specify the `CLASSPATH` on the command line by adding the -cp <directorypath> option to the java command. In the following example, we will use `.`, which means that we are using the current directory as the `CLASSPATH`. We then enter a `;`, to show that is the end of the `CLASSPATH`.
+
+You may also notice that we need to add the package name in front of the class name when executing, `p1MultiplesOf3And5.Problem1`. Think of this as like adding the full mailing address of the class, so that the JVM can find it easily.
+
+* **Run the Java application by executing the following command in the problem folder:**
 
 ```java
-java Problem1
+java -cp.; p1MultiplesOf3And5.Problem1
 ```
 
 This will cause the JVM to interpret the bytecode within the *.class file into commands which are understood by your OS and version of Java.
