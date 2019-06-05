@@ -19,7 +19,7 @@ jobs:
       - run: javac ./p1MultiplesOf3And5/Problem1.java
       - run: java p1MultiplesOf3And5.Problem1
 
-      - run: javac ./p2EvenFibonacciNumbers
+      - run: javac ./p2EvenFibonacciNumbers/Problem2.java
       - run: java p2EvenFibonacciNumbers.Problem2
 
       - run: javac ./p3LargestPrimeFactor/Problem3_int.java
@@ -30,4 +30,3 @@ jobs:
 
       - run: javac ./p4LargestPalindromeProduct/Problem4.java
       - run: java p4LargestPalindromeProduct.Problem4
-
