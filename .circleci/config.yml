@@ -16,7 +16,7 @@ jobs:
     steps:
       - checkout
 
-      - run: ls -al && javac p1MultiplesOf3And5/Problem1.java
+      - run: javac ./p1MultiplesOf3And5/Problem1.java
 
-      - run: ls -al && java ./p1MultiplesOf3And5/Problem1.java
+      - run: ls -al ./p1MultiplesOf3And5 && java ./p1MultiplesOf3And5/Problem1.java
 
