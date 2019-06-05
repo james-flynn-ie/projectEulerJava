@@ -1,6 +1,9 @@
 package p3LargestPrimeFactor;
 
-/** Question:
+/**
+ * @author james-flynn-ie
+ * @url https://projecteuler.net/problem=3
+ * Question:
  * The prime factors of 13195 are 5, 7, 13 and 29.
  * What is the largest prime factor of the number 600851475143 ?
  */
@@ -13,17 +16,16 @@ public class Problem3_long {
      *  Repeat division until numberUnderTest = 1 (which cannot be prime).
      */
     public static void main(String[] args) {
-        long numberUnderTest=600_851_475_143L;
+        final long ORIGINAL_NUMBER_UNDER_TEST =600_851_475_143L;
+        long numberUnderTest=ORIGINAL_NUMBER_UNDER_TEST;
 
-        for (long i = 2L; i <= numberUnderTest; i++) {
-            // A prime factor must be >= 2 & mod = 0
-            if (numberUnderTest % i==0) {
-                System.out.println(i);
-
-                // Divide by factor, then reset i to 2 and loop through again.
+        for (long i = 2L; i < numberUnderTest; i++) {
+            // Keep dividing numberUnderTest by incremental i, until it can't be divided by i any longer.
+            if (numberUnderTest % i==0 && i != 1) {
+                // Divide by factor, before looping again.
                 numberUnderTest = numberUnderTest / i;
-                i = 2L;
             }
         }
+        System.out.println("The largest prime factor of " + ORIGINAL_NUMBER_UNDER_TEST + " is: " + numberUnderTest);
     }
 }

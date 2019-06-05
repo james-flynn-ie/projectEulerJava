@@ -2,7 +2,10 @@ package p3LargestPrimeFactor;
 
 import java.util.concurrent.CopyOnWriteArrayList;
 
-/** Question:
+/**
+ * @author james-flynn-ie
+ * @url https://projecteuler.net/problem=3
+ * Question:
  * The prime factors of 13195 are 5, 7, 13 and 29.
  * What is the largest prime factor of the number 600851475143 ?
  */
@@ -45,6 +48,8 @@ public class Problem3_int {
         // Check if any factors can be divided by another factor, i.e.: are not prime.
         allFactors = removePrimesFromAllFactors(allFactors);
 
+        System.out.println("Warning: This approach is inefficient for long numbers.\n" +
+                        "Please use the Problem3_long.java solution for numbers larger than an int.\n");
         System.out.println("The prime factors for " + numberUnderTest + " are : " + allFactors);
     }
 }
