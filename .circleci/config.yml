@@ -17,6 +17,17 @@ jobs:
       - checkout
 
       - run: javac ./p1MultiplesOf3And5/Problem1.java
+      - run: java ./p1MultiplesOf3And5/Problem1
 
-      - run: ls -al ./p1MultiplesOf3And5 && java ./p1MultiplesOf3And5/Problem1.java
+      - run: javac ./p2EvenFibonacciNumbers
+      - run: java ./p2EvenFibonacciNumbers/Problem2
+
+      - run: javac ./p3LargestPrimeFactor/Problem3_int.java
+      - run: java ./p3LargestPrimeFactor/Problem3_int
+
+      - run: javac ./p3LargestPrimeFactor/Problem3_long.java
+      - run: java ./p3LargestPrimeFactor/Problem3_long
+
+      - run: javac ./p4LargestPalindromeProduct/Problem4.java
+      - run: java ./p4LargestPalindromeProduct/Problem4
 
