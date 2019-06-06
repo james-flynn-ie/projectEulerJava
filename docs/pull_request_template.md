@@ -9,7 +9,7 @@ _For #_
     - [x] A description of the changes proposed in the pull request.
 -->
 _Please include:_
-- [ ] An updated .circleci/config.yml file with javac commands for the new solution file added,
+- [ ] An updated .circleci/config.yml file with javac commands for the new solution file added, if necessary
         e.g.:      
  ```
     - run: javac ./ProblemFileDirectory/ProblemFileName.java
