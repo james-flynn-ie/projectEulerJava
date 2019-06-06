@@ -1,14 +1,14 @@
 <!-- Include the issue number after the # tag, e.g.:
     For #1234
 -->
-For #
+_For #_
 
 
 <!--
   When an item is complete, then go ahead and check it off as "done", e.g.:
     - [x] A description of the changes proposed in the pull request.
 -->
-Please include:
+_Please include:_
 - [ ] An updated .circleci/config.yml file with javac commands for the new solution file added,
         e.g.:      
  ```
