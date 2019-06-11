@@ -1,4 +1,4 @@
-[![CircleCI](https://circleci.com/gh/james-flynn-ie/projectEulerJava.svg?style=svg)](https://circleci.com/gh/james-flynn-ie/projectEulerJava)
+[![CircleCI](https://circleci.com/gh/james-flynn-ie/projectEulerJava.svg?style=svg)](https://circleci.com/gh/james-flynn-ie/projectEulerJava) [![codebeat badge](https://codebeat.co/badges/93b68aa4-21f6-494d-979d-feda6f8ff5a4)](https://codebeat.co/projects/github-com-james-flynn-ie-projecteulerjava-master)
 
 # projectEulerJava
 ## What is Project Euler?
