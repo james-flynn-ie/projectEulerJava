@@ -11,7 +11,8 @@ public class Problem4 {
 
     static int findLargestPalindrome(int result, String reverseResult, String strResult, int largestPalindrome) {
         if ((reverseResult).equals(strResult)) {
-            System.out.println("Palindrome found! " + result);
+            // Uncomment this to see the full palindrome list. 
+            // System.out.println("Palindrome found! " + result);
             
             if (result > largestPalindrome) {
                 largestPalindrome = result;
