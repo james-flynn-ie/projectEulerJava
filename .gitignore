@@ -25,3 +25,6 @@ hs_err_pid*
 
 # Adding IntelliJ workspace files
 .idea/
+
+# Adding VS Code workspace dirs
+.vscode/
