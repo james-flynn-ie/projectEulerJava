@@ -23,14 +23,20 @@ public class Problem3_int {
         return allFactors;
     }
 
+    static int removePrimeFromFactor (CopyOnWriteArrayList<Integer> allFactors, int i, int j) {
+        if (! allFactors.get(i).equals(allFactors.get(j)) && (allFactors.get(i) % allFactors.get(j) == 0)) {
+            allFactors.remove(i);
+            // Decrement 'i' so that we don't miss one of the factors after the post-removal reindexing in for-loop.
+            i--;
+        }
+        return i;
+    }
+
     private static CopyOnWriteArrayList<Integer> removePrimesFromAllFactors (CopyOnWriteArrayList<Integer> allFactors) {
         for (int i = 0; i < allFactors.size(); i++) {
-            for (int j = 0; j <= i; j++) {
-                if (! allFactors.get(i).equals(allFactors.get(j)) && (allFactors.get(i) % allFactors.get(j) == 0)) {
-                    allFactors.remove(i);
-                    // Decrement 'i' so that we don't miss one of the factors after the post-removal reindexing in for-loop.
-                    i--;
-                }
+            // We need to also check if i < allFactors array inside the j-loop.
+            for (int j = 0; j <= i && i < allFactors.size(); j++) {
+                removePrimeFromFactor(allFactors, i, j);
             }
         }
         return allFactors;
