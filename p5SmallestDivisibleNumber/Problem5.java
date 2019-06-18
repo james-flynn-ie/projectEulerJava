@@ -11,6 +11,9 @@ public class Problem5 {
 
     /* The Greatest Common Factor (GCF) is the largest positive integer 
      * that divides evenly into the numbers a and b with no remainder.
+     * 
+     * We could also have used prime factorisation to calculate the LCM, 
+     * but I used this approach since we already used that in Problem 3.
      */
     static int gcf(int a, int b) {
         while (b != 0) {
@@ -29,10 +32,13 @@ public class Problem5 {
         */
         int result = 2520;
 
-        
+        /* Our result is the Lowest Common Multiple (LCM), which can be defined as:
+         * "For two integers a and b, denoted LCM(a,b), the LCM is the smallest integer that is evenly divisible by both a and b"
+         *      https://www.calculatorsoup.com/calculators/math/lcm.php
+         */
         for (int i = 10; i <= MAX_NUMBER; i++) {
-            int currentGcd = gcf(i, result);
-            result = result / currentGcd * i;
+            int currentGcf = gcf(i, result);
+            result = result / currentGcf * i;
         }
         System.out.println("The smallest positive number that is evenly divisible by all of the numbers from 1 to 20 is " + result);
     }
