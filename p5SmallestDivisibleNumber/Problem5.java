@@ -19,8 +19,13 @@ public class Problem5 {
     }
 
     public static void main(String[] args) {
-        int result = 1;
-        for (int i = 1; i <= MAX_NUMBER; i++) {
+        /* Since we are given in the question that smallest divisible number of 1 to 10 is 2520, 
+         * and 10 is a factor of 20, we can start there!
+         * 
+         * We set the result to 2520, and then start checking the LCM from 10 to 20.
+        */
+        int result = 2520;
+        for (int i = 10; i <= MAX_NUMBER; i++) {
             int currentGcd = gcd(i, result);
             result = result / currentGcd * i;
         }
