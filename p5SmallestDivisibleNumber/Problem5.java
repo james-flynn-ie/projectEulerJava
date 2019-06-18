@@ -9,7 +9,10 @@ package p5SmallestDivisibleNumber;
 public class Problem5 {
     final static int MAX_NUMBER = 20;
 
-    static int gcd(int a, int b) {
+    /* The Greatest Common Factor (GCF) is the largest positive integer 
+     * that divides evenly into the numbers a and b with no remainder.
+     */
+    static int gcf(int a, int b) {
         while (b != 0) {
             int t = a;
             a = b;
@@ -22,13 +25,15 @@ public class Problem5 {
         /* Since we are given in the question that smallest divisible number of 1 to 10 is 2520, 
          * and 10 is a factor of 20, we can start there!
          * 
-         * We set the result to 2520, and then start checking the LCM from 10 to 20.
+         * We set the result to 2520, and then start calculating from 10 to 20.
         */
         int result = 2520;
+
+        
         for (int i = 10; i <= MAX_NUMBER; i++) {
-            int currentGcd = gcd(i, result);
+            int currentGcd = gcf(i, result);
             result = result / currentGcd * i;
         }
-        System.out.println(result);
+        System.out.println("The smallest positive number that is evenly divisible by all of the numbers from 1 to 20 is " + result);
     }
 }
