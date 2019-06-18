@@ -1,7 +1,13 @@
 package p5SmallestDivisibleNumber;
 
+/*
+ * @author james-flynn-ie
+ * https://projecteuler.net/problem=5
+ * 2520 is the smallest number that can be divided by each of the numbers from 1 to 10 without any remainder.
+ * What is the smallest positive number that is evenly divisible by all of the numbers from 1 to 20?
+ */
 public class Problem5 {
-    final static int MAX_NUMBER = 10;
+    final static int MAX_NUMBER = 20;
 
     static int gcd(int a, int b) {
         while (b != 0) {
