@@ -30,3 +30,6 @@ jobs:
 
       - run: javac ./p4LargestPalindromeProduct/Problem4.java
       - run: java p4LargestPalindromeProduct.Problem4
+
+      - run: javac ./p5SmallestDivisibleNumber/Problem5.java
+      - run: java p5SmallestDivisibleNumber.Problem5
