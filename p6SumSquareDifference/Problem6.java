@@ -11,9 +11,16 @@ package p6SumSquareDifference;
  * Find the difference between the sum of the squares of the first one hundred
  * natural numbers and the square of the sum.
  */
-
 public class Problem6 {
     public static void main(String[] args) {
-        System.out.println("Problem6");
+        int sumofnums = 0; 
+        int sumofsquares = 0;
+        final int MAX_NUMBER = 10;
+
+        for (int i = 1; i <= MAX_NUMBER; i++) { 
+            sumofnums += i;    
+            sumofsquares += i * i;     
+        }
+        System.out.println(sumofnums + " " + sumofsquares);
     }
  }
