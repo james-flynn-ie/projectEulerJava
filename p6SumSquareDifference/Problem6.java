@@ -13,7 +13,7 @@ package p6SumSquareDifference;
  */
 public class Problem6 {
     public static void main(String[] args) {
-        final int MAX_NUMBER = 10;
+        final int MAX_NUMBER = 100;
 
         int sumofnums = 0;
         int sumofsquares = 0;
