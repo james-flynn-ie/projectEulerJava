@@ -13,14 +13,19 @@ package p6SumSquareDifference;
  */
 public class Problem6 {
     public static void main(String[] args) {
-        int sumofnums = 0; 
-        int sumofsquares = 0;
         final int MAX_NUMBER = 10;
+
+        int sumofnums = 0;
+        int sumofsquares = 0;
+        int squaredsum = 0;
 
         for (int i = 1; i <= MAX_NUMBER; i++) { 
             sumofnums += i;    
             sumofsquares += i * i;     
         }
-        System.out.println(sumofnums + " " + sumofsquares);
+
+        squaredsum = sumofnums * sumofnums;
+        
+        System.out.println(sumofnums + " " + sumofsquares + " " + squaredsum);
     }
  }
