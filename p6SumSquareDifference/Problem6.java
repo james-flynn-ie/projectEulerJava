@@ -21,10 +21,10 @@ public class Problem6 {
 
         for (int i = 1; i <= MAX_NUMBER; i++) { 
             sumofnums += i;    
-            sumofsquares += i * i;     
+            sumofsquares += Math.pow(i, 2);     
         }
 
-        squaredsum = sumofnums * sumofnums;
+        squaredsum = (int) Math.pow(sumofnums, 2);
         System.out.println("The squared sum of the squares of the first " + MAX_NUMBER + " natural numbers is: " + squaredsum);
         System.out.println("The sum of the squares of the first " + MAX_NUMBER + " natural numbers is: " + sumofsquares);
 
