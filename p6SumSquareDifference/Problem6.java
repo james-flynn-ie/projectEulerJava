@@ -25,7 +25,10 @@ public class Problem6 {
         }
 
         squaredsum = sumofnums * sumofnums;
-        
-        System.out.println(sumofnums + " " + sumofsquares + " " + squaredsum);
+        System.out.println("The squared sum of the squares of the first " + MAX_NUMBER + " natural numbers is: " + squaredsum);
+        System.out.println("The sum of the squares of the first " + MAX_NUMBER + " natural numbers is: " + sumofsquares);
+
+        int difference = squaredsum - sumofsquares;
+        System.out.println("The difference between the sum of the squares and the square of the sum for the first " + MAX_NUMBER + " natural numbers is: " + difference);
     }
  }
