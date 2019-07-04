@@ -13,22 +13,16 @@ package p6SumSquareDifference;
  */
 public class Problem6 {
     public static void main(String[] args) {
-        final int MAX_NUMBER = 100;
+        final int N = 100;
 
-        int sumofnums = 0;
-        int sumofsquares = 0;
-        int squaredsum = 0;
+        int sumofnums = N * (N + 1) / 2;    
+        int sumofsquares = (N * (N + 1) * (2*N + 1)) / 6;     
 
-        for (int i = 1; i <= MAX_NUMBER; i++) { 
-            sumofnums += i;    
-            sumofsquares += Math.pow(i, 2);     
-        }
-
-        squaredsum = (int) Math.pow(sumofnums, 2);
-        System.out.println("The squared sum of the squares of the first " + MAX_NUMBER + " natural numbers is: " + squaredsum);
-        System.out.println("The sum of the squares of the first " + MAX_NUMBER + " natural numbers is: " + sumofsquares);
+        int squaredsum = (int) Math.pow(sumofnums, 2);
+        System.out.println("The squared sum of the squares of the first " + N + " natural numbers is: " + squaredsum);
+        System.out.println("The sum of the squares of the first " + N + " natural numbers is: " + sumofsquares);
 
         int difference = squaredsum - sumofsquares;
-        System.out.println("The difference between the sum of the squares and the square of the sum for the first " + MAX_NUMBER + " natural numbers is: " + difference);
+        System.out.println("The difference between the sum of the squares and the square of the sum for the first " + N + " natural numbers is: " + difference);
     }
  }
