@@ -33,3 +33,6 @@ jobs:
 
       - run: javac ./p5SmallestDivisibleNumber/Problem5.java
       - run: java p5SmallestDivisibleNumber.Problem5
+
+      - run: javac ./p6SumSquareDifference/Problem6.java
+      - run: java p6SumSquareDifference.Problem6
