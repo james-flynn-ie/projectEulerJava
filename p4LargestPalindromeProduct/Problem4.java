@@ -1,14 +1,13 @@
 package p4LargestPalindromeProduct;
 
+/**
+ * @author james-flynn-ie
+ * @see <a href="https://projecteuler.net/problem=4">https://projecteuler.net/problem=4</a>
+ * A palindromic number reads the same both ways.
+ * The largest palindrome made from the product of two 2-digit numbers is 9009 = 91 × 99.
+ * Find the largest palindrome made from the product of two 3-digit numbers.
+ */
 public class Problem4 {
-    /**
-     * @author james-flynn-ie
-     * @see <a href="https://projecteuler.net/problem=4">https://projecteuler.net/problem=4</a>
-     * A palindromic number reads the same both ways.
-     * The largest palindrome made from the product of two 2-digit numbers is 9009 = 91 × 99.
-     * Find the largest palindrome made from the product of two 3-digit numbers.
-     */
-
     static int findLargestPalindrome(int result, int largestPalindrome) {
         //Convert result to String and then reverse it.
         String strResult = Integer.toString(result);
