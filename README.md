@@ -58,4 +58,4 @@ You may notice that we need to add the package name in front of the class name w
 
 This command will cause the JVM to interpret the bytecode within the *.class file into commands which are understood by your OS and version of Java, and then run the program.
 
-<span style="font-family:Papyrus; font-size:36pt;">Have Fun!</span>
+## **Have Fun!**
