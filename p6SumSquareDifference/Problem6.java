@@ -17,17 +17,17 @@ public class Problem6 {
         final int N = 100;
 
         /*
-	     * We can use the following Sum of Natural Numbers algorithm:
-	     * https: //trans4mind.com/personal_development/mathematics/series/sumNaturalNumbers.htm#mozTocId914933
-	     */
+         * We can use the following Sum of Natural Numbers algorithm:
+         * https: //trans4mind.com/personal_development/mathematics/series/sumNaturalNumbers.htm#mozTocId914933
+         */
         int sumofnums = N * (N + 1) / 2;
         int squaredsum = (int) Math.pow(sumofnums, 2);
         System.out.println("The squared sum of the squares of the first " + N + " natural numbers is: " + squaredsum);
 
         /*
-	     * We can use the following Sum of the Squares of Natural Numbers algorithm:
-	     * https://trans4mind.com/personal_development/mathematics/series/sumNaturalSquares.htm
-	     */
+         * We can use the following Sum of the Squares of Natural Numbers algorithm:
+         * https://trans4mind.com/personal_development/mathematics/series/sumNaturalSquares.htm
+         */
         int sumofsquares = (N * (N + 1) * (2*N + 1)) / 6;     
         System.out.println("The sum of the squares of the first " + N + " natural numbers is: " + sumofsquares);
 
