@@ -1,4 +1,4 @@
-package src.main.java.com.github.james_flynn_ie.projecteulerjava.p3LargestPrimeFactor;
+package src.main.java.com.github.james_flynn_ie.projecteulerjava.p3largestprimefactor;
 
 import java.util.concurrent.CopyOnWriteArrayList;
 
