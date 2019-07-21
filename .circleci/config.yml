@@ -31,8 +31,8 @@ jobs:
       - run: javac ./src/main/java/com/github/james_flynn_ie/projecteulerjava/p4largestpalindromeproduct/Problem4.java
       - run: java src.main.java.com.github.james_flynn_ie.projecteulerjava.p4largestpalindromeproduct.Problem4
 
-      - run: javac ./src/main/java/com/github/james_flynn_ie/projecteulerjava/p5SmallestDivisibleNumber/Problem5.java
-      - run: java src.main.java.com.github.james_flynn_ie.projecteulerjava.p5SmallestDivisibleNumber.Problem5
+      - run: javac ./src/main/java/com/github/james_flynn_ie/projecteulerjava/p5smallestdivisiblenumber/Problem5.java
+      - run: java src.main.java.com.github.james_flynn_ie.projecteulerjava.p5smallestdivisiblenumber.Problem5
 
       - run: javac ./src/main/java/com/github/james_flynn_ie/projecteulerjava/p6SumSquareDifference/Problem6.java
       - run: java src.main.java.com.github.james_flynn_ie.projecteulerjava.p6SumSquareDifference.Problem6
