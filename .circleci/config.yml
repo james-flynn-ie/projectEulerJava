@@ -16,23 +16,23 @@ jobs:
     steps:
       - checkout
 
-      - run: javac ./src/main/java.com/github/james_flynn_ie/projectEulerJava/p1MultiplesOf3And5/Problem1.java
+      - run: javac ./src/main/java/com/github/james_flynn_ie/projectEulerJava/p1MultiplesOf3And5/Problem1.java
       - run: java src.main.java.com.github.james_flynn_ie.projectEulerJava.p1MultiplesOf3And5.Problem1
 
-      - run: javac ./src/main/java.com/github/james_flynn_ie/projectEulerJava/p2EvenFibonacciNumbers/Problem2.java
+      - run: javac ./src/main/java/com/github/james_flynn_ie/projectEulerJava/p2EvenFibonacciNumbers/Problem2.java
       - run: java src.main.java.com.github.james_flynn_ie.projectEulerJava.p2EvenFibonacciNumbers.Problem2
 
-      - run: javac ./src/main/java.com/github/james_flynn_ie/projectEulerJava/p3LargestPrimeFactor/Problem3_int.java
+      - run: javac ./src/main/java/com/github/james_flynn_ie/projectEulerJava/p3LargestPrimeFactor/Problem3_int.java
       - run: java src.main.java.com.github.james_flynn_ie.projectEulerJava.p3LargestPrimeFactor.Problem3_int
 
-      - run: javac ./src/main/java.com/github/james_flynn_ie/projectEulerJava/p3LargestPrimeFactor/Problem3_long.java
+      - run: javac ./src/main/java/com/github/james_flynn_ie/projectEulerJava/p3LargestPrimeFactor/Problem3_long.java
       - run: java src.main.java.com.github.james_flynn_ie.projectEulerJava.p3LargestPrimeFactor.Problem3_long
 
-      - run: javac ./src/main/java.com/github/james_flynn_ie/projectEulerJava/p4LargestPalindromeProduct/Problem4.java
+      - run: javac ./src/main/java/com/github/james_flynn_ie/projectEulerJava/p4LargestPalindromeProduct/Problem4.java
       - run: java src.main.java.com.github.james_flynn_ie.projectEulerJava.p4LargestPalindromeProduct.Problem4
 
-      - run: javac ./src/main/java.com/github/james_flynn_ie/projectEulerJava/p5SmallestDivisibleNumber/Problem5.java
+      - run: javac ./src/main/java/com/github/james_flynn_ie/projectEulerJava/p5SmallestDivisibleNumber/Problem5.java
       - run: java src.main.java.com.github.james_flynn_ie.projectEulerJava.p5SmallestDivisibleNumber.Problem5
 
-      - run: javac ./src/main/java.com/github/james_flynn_ie/projectEulerJava/p6SumSquareDifference/Problem6.java
+      - run: javac ./src/main/java/com/github/james_flynn_ie/projectEulerJava/p6SumSquareDifference/Problem6.java
       - run: java src.main.java.com.github.james_flynn_ie.projectEulerJava.p6SumSquareDifference.Problem6
