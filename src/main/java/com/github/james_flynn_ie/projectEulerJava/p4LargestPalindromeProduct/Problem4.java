@@ -1,4 +1,4 @@
-package src.main.java.com.github.james_flynn_ie.projecteulerjava.p4LargestPalindromeProduct;
+package src.main.java.com.github.james_flynn_ie.projecteulerjava.p4largestpalindromeproduct;
 
 /**
  * @author james-flynn-ie
