@@ -1,4 +1,4 @@
-package src.main.java.com.github.james_flynn_ie.projecteulerjava.p1MultiplesOf3And5;
+package src.main.java.com.github.james_flynn_ie.projecteulerjava.p1multiplesof3and5;
 
 /**
  * @author james-flynn-ie
