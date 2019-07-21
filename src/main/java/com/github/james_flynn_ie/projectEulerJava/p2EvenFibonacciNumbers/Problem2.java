@@ -1,4 +1,4 @@
-package p2EvenFibonacciNumbers;
+package src.main.java.com.github.james_flynn_ie.projectEulerJava.p2EvenFibonacciNumbers;
 
 /**
  * @author james-flynn-ie
