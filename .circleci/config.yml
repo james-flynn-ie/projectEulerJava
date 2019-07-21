@@ -34,8 +34,8 @@ jobs:
       - run: javac ./src/main/java/com/github/james_flynn_ie/projecteulerjava/p5smallestdivisiblenumber/Problem5.java
       - run: java src.main.java.com.github.james_flynn_ie.projecteulerjava.p5smallestdivisiblenumber.Problem5
 
-      - run: javac ./src/main/java/com/github/james_flynn_ie/projecteulerjava/p6SumSquareDifference/Problem6.java
-      - run: java src.main.java.com.github.james_flynn_ie.projecteulerjava.p6SumSquareDifference.Problem6
+      - run: javac ./src/main/java/com/github/james_flynn_ie/projecteulerjava/p6sumsquaredifference/Problem6.java
+      - run: java src.main.java.com.github.james_flynn_ie.projecteulerjava.p6sumsquaredifference.Problem6
 
       - run: javac ./src/main/java/com/github/james_flynn_ie/projecteulerjava/p7TenThousandAndFirstPrimeNumber/Problem7.java
       - run: java src.main.java.com.github.james_flynn_ie.projecteulerjava.p7TenThousandAndFirstPrimeNumber.Problem7
