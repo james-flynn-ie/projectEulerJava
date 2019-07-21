@@ -36,3 +36,6 @@ jobs:
 
       - run: javac ./src/main/java/com/github/james_flynn_ie/projectEulerJava/p6SumSquareDifference/Problem6.java
       - run: java src.main.java.com.github.james_flynn_ie.projectEulerJava.p6SumSquareDifference.Problem6
+
+      - run: javac ./src/main/java/com/github/james_flynn_ie/projectEulerJava/p7TenThousandAndFirstPrimeNumber/Problem7.java
+      - run: java src.main.java.com.github.james_flynn_ie.projectEulerJava.p7TenThousandAndFirstPrimeNumber.Problem7
