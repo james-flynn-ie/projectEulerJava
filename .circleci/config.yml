@@ -20,6 +20,9 @@ jobs:
 
       - checkout
 
+      - run: pwd
+      - run: ls
+      
       - run: javac ./repo/src/main/java/com/github/james_flynn_ie/projecteulerjava/p1multiplesof3and5/Problem1.java
       - run: java src.main.java.com.github.james_flynn_ie.projecteulerjava.p1multiplesof3and5.Problem1
 
