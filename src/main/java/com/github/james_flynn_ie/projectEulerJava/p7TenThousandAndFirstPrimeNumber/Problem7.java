@@ -1,4 +1,4 @@
-package src.main.java.com.github.james_flynn_ie.projectEulerJava.p7TenThousandAndFirstPrimeNumber;
+package src.main.java.com.github.james_flynn_ie.projecteulerjava.p7TenThousandAndFirstPrimeNumber;
 
 /**
  * @author james-flynn-ie
