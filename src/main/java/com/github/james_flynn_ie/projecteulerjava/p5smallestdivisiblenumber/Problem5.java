@@ -1,4 +1,4 @@
-package src.main.java.com.github.james_flynn_ie.projectEulerJava.p5SmallestDivisibleNumber;
+package src.main.java.com.github.james_flynn_ie.projecteulerjava.p5smallestdivisiblenumber;
 
 /**
  * @author james-flynn-ie

@@ -14,28 +14,32 @@ jobs:
       JAVA_OPTS: -Xmx3200m
 
     steps:
+      - add_ssh_keys:
+          fingerprints:
+            - "8a:fa:52:e9:c8:94:b1:72:81:11:c4:9e:cf:62:d9:22"
+
       - checkout
 
-      - run: javac ./src/main/java/com/github/james_flynn_ie/projectEulerJava/p1MultiplesOf3And5/Problem1.java
-      - run: java src.main.java.com.github.james_flynn_ie.projectEulerJava.p1MultiplesOf3And5.Problem1
+      - run: javac ./src/main/java/com/github/james_flynn_ie/projecteulerjava/p1multiplesof3and5/Problem1.java
+      - run: java src.main.java.com.github.james_flynn_ie.projecteulerjava.p1multiplesof3and5.Problem1
 
-      - run: javac ./src/main/java/com/github/james_flynn_ie/projectEulerJava/p2EvenFibonacciNumbers/Problem2.java
-      - run: java src.main.java.com.github.james_flynn_ie.projectEulerJava.p2EvenFibonacciNumbers.Problem2
+      - run: javac ./src/main/java/com/github/james_flynn_ie/projecteulerjava/p2evenfibonaccinumbers/Problem2.java
+      - run: java src.main.java.com.github.james_flynn_ie.projecteulerjava.p2evenfibonaccinumbers.Problem2
 
-      - run: javac ./src/main/java/com/github/james_flynn_ie/projectEulerJava/p3LargestPrimeFactor/Problem3_int.java
-      - run: java src.main.java.com.github.james_flynn_ie.projectEulerJava.p3LargestPrimeFactor.Problem3_int
+      - run: javac ./src/main/java/com/github/james_flynn_ie/projecteulerjava/p3largestprimefactor/Problem3_int.java
+      - run: java src.main.java.com.github.james_flynn_ie.projecteulerjava.p3largestprimefactor.Problem3_int
 
-      - run: javac ./src/main/java/com/github/james_flynn_ie/projectEulerJava/p3LargestPrimeFactor/Problem3_long.java
-      - run: java src.main.java.com.github.james_flynn_ie.projectEulerJava.p3LargestPrimeFactor.Problem3_long
+      - run: javac ./src/main/java/com/github/james_flynn_ie/projecteulerjava/p3largestprimefactor/Problem3_long.java
+      - run: java src.main.java.com.github.james_flynn_ie.projecteulerjava.p3largestprimefactor.Problem3_long
 
-      - run: javac ./src/main/java/com/github/james_flynn_ie/projectEulerJava/p4LargestPalindromeProduct/Problem4.java
-      - run: java src.main.java.com.github.james_flynn_ie.projectEulerJava.p4LargestPalindromeProduct.Problem4
+      - run: javac ./src/main/java/com/github/james_flynn_ie/projecteulerjava/p4largestpalindromeproduct/Problem4.java
+      - run: java src.main.java.com.github.james_flynn_ie.projecteulerjava.p4largestpalindromeproduct.Problem4
 
-      - run: javac ./src/main/java/com/github/james_flynn_ie/projectEulerJava/p5SmallestDivisibleNumber/Problem5.java
-      - run: java src.main.java.com.github.james_flynn_ie.projectEulerJava.p5SmallestDivisibleNumber.Problem5
+      - run: javac ./src/main/java/com/github/james_flynn_ie/projecteulerjava/p5smallestdivisiblenumber/Problem5.java
+      - run: java src.main.java.com.github.james_flynn_ie.projecteulerjava.p5smallestdivisiblenumber.Problem5
 
-      - run: javac ./src/main/java/com/github/james_flynn_ie/projectEulerJava/p6SumSquareDifference/Problem6.java
-      - run: java src.main.java.com.github.james_flynn_ie.projectEulerJava.p6SumSquareDifference.Problem6
+      - run: javac ./src/main/java/com/github/james_flynn_ie/projecteulerjava/p6sumsquaredifference/Problem6.java
+      - run: java src.main.java.com.github.james_flynn_ie.projecteulerjava.p6sumsquaredifference.Problem6
 
-      - run: javac ./src/main/java/com/github/james_flynn_ie/projectEulerJava/p7TenThousandAndFirstPrimeNumber/Problem7.java
-      - run: java src.main.java.com.github.james_flynn_ie.projectEulerJava.p7TenThousandAndFirstPrimeNumber.Problem7
+      - run: javac ./src/main/java/com/github/james_flynn_ie/projecteulerjava/p7tenthousandandfirstprimenumber/Problem7.java
+      - run: java src.main.java.com.github.james_flynn_ie.projecteulerjava.p7tenthousandandfirstprimenumber.Problem7

@@ -1,4 +1,4 @@
-package src.main.java.com.github.james_flynn_ie.projectEulerJava.p6SumSquareDifference;
+package src.main.java.com.github.james_flynn_ie.projecteulerjava.p6sumsquaredifference;
 
 /**
  * @author james-flynn-ie
