@@ -1,4 +1,5 @@
 ---
+title: James Flynn's Github Pages
 ---
 
 # projectEulerJava
