@@ -1,5 +1,13 @@
 ---
-title: James Flynn's Github Pages
+title: James Flynn's ProjectEulerJava GitHub Pages
+description: GitHub Page showcasing Project Euler Solutions written in Java by DevOps Engineer, James Flynn.
+logo: images/james_pic.png
+social:
+  name: James Flynn
+  links:
+    - https://ie.linkedin.com/in/jamesflynnie
+    - https://github.com/james-flynn-ie/projectEulerGo
+lang: en_IE
 ---
 
 # projectEulerJava
