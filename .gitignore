@@ -28,3 +28,7 @@ hs_err_pid*
 
 # Adding VS Code workspace dirs
 .vscode/
+
+# Adding Jekyll Plugin files
+Gemfile.lock
+_site/
